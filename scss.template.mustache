@@ -1,0 +1,8 @@
+/* gulp.spritesmith : css templates */
+
+{{#sprites}}
+.{{name}} {
+background-image: url(images/sprite.png);
+background-position: {{px.offset_x}} {{px.offset_y}};
+}
+{{/sprites}}
